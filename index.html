@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login page</title>
     <link rel="stylesheet" href="app.css">
+    
 </head>
 <body>
     <main>
@@ -12,7 +13,9 @@
             <header>Sign In</header>
             <section>
                <div class="input-div">
-                <input id="usernameInput" type="text" placeholder="Username">
+                <input  id="usernameInput" type="text" placeholder="Username">
+                <div class="status-div"></div>              
+                <div class="invalid-div"><span class="enter-valid-username"></span></div>
                 <input id="passwordInput" type="password" placeholder="password">
                 <p>Forgot <a class="forgotLink" href="forgotusername/password">username/password? </a></p>
                 <button>SIGN IN</button>
